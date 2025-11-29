@@ -1,0 +1,15 @@
+name: rag-chatbot
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - langchain
+    - langchain-community
+    - streamlit
+    - unstructured
+    - faiss-cpu
+    - sentence-transformers
+    - openai
+    - import_ipynb
